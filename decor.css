@@ -1,4 +1,10 @@
 /* class based decoration file */
+.inline_center {
+    display:     flex;
+    flex-flow:   row;
+    justify-content: center;
+    align-items:     center;
+}
 .inline_cluster {
     display:     flex;
     flex-flow:   row;
@@ -10,11 +16,21 @@
     justify-content: center;
     align-items:     center;
 }
+.block_cards {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+}
 .card {
-    padding: 10px
+    padding: 10px;
 }
 .responsive_right_spreader {
     justify-content: end;
+    align-items:     center;
+}
+.responsive_spreader {
+    justify-content: space-between;
     align-items:     center;
 }
 .local_link {
