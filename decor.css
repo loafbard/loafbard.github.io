@@ -1,12 +1,21 @@
 /* class based decoration file */
 .inline_cluster {
-    display:     inline-block;
-    margin-left: 0px;
     display:     flex;
     flex-flow:   row;
-    /* flex-basis:  fit-content; */
+}
+.inline_cards {
+    display:         flex;
+    flex-direction:  row;
+    flex-wrap:       wrap;
+    justify-content: center;
+    align-items:     center;
+}
+.card {
+    padding: 10px
 }
 .responsive_right_spreader {
+    justify-content: end;
+    align-items:     center;
 }
 .local_link {
     color:      yellow;

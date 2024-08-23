@@ -8,7 +8,7 @@ body {
         "topbar"
         "main"
         "footer";
-    grid-template-rows: 80px auto 100px
+    grid-template-rows: auto auto auto
 }
 header {
     grid-area: topbar;
