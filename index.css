@@ -1,0 +1,27 @@
+/* base css configurations */
+body {
+    background: black;
+    color:      white;
+    cursor:     default;
+    display:    grid;
+    grid-template-areas: 
+        "topbar"
+        "main"
+        "footer";
+    grid-template-rows: 80px auto 100px
+}
+header {
+    grid-area: topbar;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
